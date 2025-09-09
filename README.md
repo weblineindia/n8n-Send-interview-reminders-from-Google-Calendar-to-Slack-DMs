@@ -1,0 +1,2 @@
+# n8n-Send-interview-reminders-from-Google-Calendar-to-Slack-DMs
+This workflow sends a Slack ping to each interviewer shortly before their interview starts. It checks the Interviews Google Calendar every minute, finds interviews starting in the next 10 mins and sends a Slack DM with the candidate name, role, local start time, meeting link, and any CV: / Notes: links present in the event description. 
